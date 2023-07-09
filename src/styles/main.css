@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'san-serif', Tahoma, sans-serif;
+}
+
+:root{
+    --mainColor: rgb(136, 122, 122);
+    --mainColorLight: blue;
+    --secondaryColor: white;
+    --textColor: black;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    padding: 0 2rem;
+    border-bottom: 2px solid white;
+    background-color: var(--secondaryColor);
+    color: var(--textColor);
+    box-shadow: 0 4px 8px 0 rgba(210, 200, 200, 0.2);
+}
+
+
+header img {
+    width: 80px;
+    margin-left: 110px;
+}
+@media only screen and (max-width: 1024px){
+   
+    header .nav-btn{
+        visibility: visible;
+        opacity: 1;
+    }
+    header img {
+        width: 80px;
+        margin-left: 110px;
+    }
+
+    
+   
+}
+
+.but{
+    width: 20px;
+    height: 20px;
+   border-radius: 50%;
+   border: none;
+   background-color: rgb(221, 218, 218);
+}
+.tobi{
+    font-size: 12px;
+    display: inline;
+    padding-left: 5px;
+    color: rgb(90, 86, 86);
+}
+.move{
+  margin-top: 5px;
+   margin-right: 100px;
+}
+
+.container{
+    margin-top: 40px;
+    margin-left: 150px;
+    display: flex;
+    column-gap: 20px;
+}
+ul{
+    list-style: none;
+}
+ul a{
+    text-decoration: none;
+    color: rgb(86, 85, 85);
+}
+.shift{
+  padding-left: 20%;
+}
+.top{
+    margin-top: -5px;
+    margin-left: 60px;
+}
+.net{
+    width: 80px;
+    margin-top: 170%;
+}
+.wall{
+    color: rgb(14, 14, 14);
+    background-color: rgb(240, 240, 240);
+    width: 150px;
+    height: 30px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.wall:hover{
+    background-color: rgb(140, 136, 136);
+}
+.wish{
+    padding-left: 10px;
+    margin-top: 20px;
+}
+.wish:hover{
+    background-color: rgb(140, 136, 136);
+    width: 150px;
+    height: 30px;
+    transition: all 0.5s;
+    padding-top: 5px;
+}
+.error{
+    color: rgb(118, 113, 113);
+    font-size: 10px;
+    margin-left: 7px;
+    margin-top: 20px;
+}
+.try{
+    width: 120px;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(75, 72, 72);
+    margin-left: -12px;
+    margin-top: 20px;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(9, 9, 9, 0.2);
+}
+.try:hover{
+    background-color: rgb(225, 154, 154);
+    color: black;
+    transition: all 0.7s;
+}
